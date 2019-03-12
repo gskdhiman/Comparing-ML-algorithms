@@ -1,5 +1,4 @@
-## Comparing-ML-algorithms
-compare the mostly used machine learning algorithms for the given dataset.
+## Titanic-Dataset-Using-Random-Forest
 
 #### Currently Work in progress
 
