@@ -125,7 +125,7 @@ out_df = pd.DataFrame(columns = ['PassengerId','Survived'])
 out_df['PassengerId'] =test_data_ID
 out_df['Survived'] = Y_pred
 
-submission_filepath ='gender_submission.csv'
+submission_filepath ='sample_submission.csv'
 out_df.to_csv(submission_filepath,index = False)
 
 sns.heatmap(c_matrix.T,square = True,annot = True,
